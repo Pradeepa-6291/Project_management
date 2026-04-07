@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Social Impact Project Management System
 
 Modern full-stack SaaS dashboard for managing social impact projects, volunteers, events, and donations.
@@ -112,3 +113,6 @@ Create project:
   "tags": ["Education", "Community"]
 }
 ```
+=======
+# Project_management
+>>>>>>> d726b54ad73bb6927becbd9550e3a0bc64361715
