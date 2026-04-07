@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen bg-slate-100 font-sans text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+}
+
+.glass {
+  @apply rounded-2xl border border-white/20 bg-white/60 shadow-glass backdrop-blur-lg dark:border-white/10 dark:bg-slate-900/60;
+}
+
+.gradient-btn {
+  @apply rounded-2xl bg-gradient-to-r from-purple-500 to-blue-500 px-4 py-2 font-semibold text-white transition hover:scale-[1.02] hover:from-purple-600 hover:to-blue-600;
+}
